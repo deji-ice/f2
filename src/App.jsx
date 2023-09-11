@@ -40,13 +40,13 @@ const App = () => {
 
       {
         data.map((item, index) => (
-          <Card 
-            key={index} 
-          description={item.description} 
-          position={item.position} 
-          company={item.company} 
-          name={item.name} 
-          image={item.image} />
+          <Card
+            key={index}
+            description={item.description}
+            position={item.position}
+            company={item.company}
+            name={item.name}
+            image={item.image} />
         ))
       }
 
