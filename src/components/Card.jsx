@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const Card = ({ name, position, description, image, company }) => {
 
@@ -15,7 +16,7 @@ const Card = ({ name, position, description, image, company }) => {
                     <div>
                         {name}
                     </div>
-                    <div> {position} @ ioeoe </div>
+                    <div> {position} @ {company} </div>
                 </div>
             </div>
         </div>
