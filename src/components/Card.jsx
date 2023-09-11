@@ -10,7 +10,7 @@ const Card = ({ name, position, description, image, company }) => {
             </div>
             <div>
                 <div>
-                    Image
+                    <img src={image} />
                 </div>
                 <div className="flex flex-col">
                     <div>
