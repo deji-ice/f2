@@ -13,9 +13,9 @@ const Card = ({ name, position, description, image, company }) => {
                 </div>
                 <div className="flex flex-col">
                     <div>
-                        retywu iqoweir
+                        {name}
                     </div>
-                    <div> twyw @ ioeoe </div>
+                    <div>  @ ioeoe </div>
                 </div>
             </div>
         </div>
