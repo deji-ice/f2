@@ -15,7 +15,7 @@ const Card = ({ name, position, description, image, company }) => {
                     <div>
                         {name}
                     </div>
-                    <div>  @ ioeoe </div>
+                    <div> {position} @ ioeoe </div>
                 </div>
             </div>
         </div>
